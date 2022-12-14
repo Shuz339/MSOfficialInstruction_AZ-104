@@ -53,7 +53,7 @@ Contoso では、ボストン、ニューヨーク、シアトルの各オフィ
    New-AzResourceGroup -Name $rgName -Location $location1
    ```
 
-   >**注**: Azure リージョンを識別するには、Cloud Shell の PowerShell セッションから **(Get-AzLocation).Location** を実行します。
+   >**注**: Azure リージョンを識別するには、Cloud Shell の PowerShell セッションから **(Get-AzLocation).Location** を実行します。[Azure_region_1]をjapaneast、[Azure_region_2]をjapanwestの様に置き換えて実行して下さい。
 
 1. 「Cloud Shell」 ウィンドウで、次のコマンドを実行して 3 つのバーチャル ネットワークを作成し、アップロードしたテンプレートとパラメーター ファイルを使用して仮想マシンをデプロイします。
 
